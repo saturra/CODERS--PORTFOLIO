@@ -15,7 +15,7 @@
 body {
   background: #3674be;
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   transition: var(--all-transition);
 }
 
@@ -35,10 +35,10 @@ body::before {
 .img-box {
   left: -72%;
   position: absolute;
-  top: 70%;
+  top: 100%;
   transform: translateY(-50%);
   width: 1300px;
-  height: 1100px;
+  height: 1300px;
 }
 
 .img-box .img-list {
@@ -62,7 +62,7 @@ body::before {
 
 .img-slider .img-item.active {
   transform: translateY(-50%) rotate(calc(-360deg / 4 * var(--i))) scale(0.9)
-    translateX(-50%);
+    translateX(-65%);
   z-index: 1;
 }
 
@@ -71,15 +71,13 @@ body::before {
   justify-content: center;
   align-items: center;
   transition: var(--all-transition);
-  position: absolute;
-  top: 40%;
 }
 
 .img-item .item img {
   transform: rotate(calc(360deg / 4 * var(--i))) rotate(120deg);
-  filter: blur(2px);
+  filter: blur(8px);
   transition: var(--all-transition);
-  border-radius: 900%;
+  clip-path: ellipse(48% 40% at 47.5% 47%);
 }
 
 .img-item.active .item img {

@@ -13,8 +13,7 @@ window.addEventListener("load", () => {
 // Simply add the .animate class to those HTML elements that you wish to animate. For example, <h1 class="animate">
 // Once in the viewport, the JS will add the 'in-view' class to those elements. For example, <h1 class="animate in-view">
 // Define your CSS to enable animations once that element is in view. For example, h1.in-view { }
-document.querySelector('scroll'() => 
-)
+
 document.addEventListener("DOMContentLoaded", () => {
   // Use Intersection Observer to determine if objects are within the viewport
   const observer = new IntersectionObserver((entries) => {
