@@ -55,14 +55,14 @@ body::before {
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%) rotate(calc(-360deg / 4 * var(--i))) scale(0.8);
+  transform: translateY(-60%) rotate(calc(-360deg / 4 * var(--i))) scale(0.8);
   transform-origin: 650px;
   transition: var(--all-transition);
 }
 
 .img-slider .img-item.active {
   transform: translateY(-50%) rotate(calc(-360deg / 4 * var(--i))) scale(0.9)
-    translateX(-65%);
+    translateX(-60%);
   z-index: 1;
 }
 
