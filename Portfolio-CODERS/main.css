@@ -43,6 +43,7 @@ body {
   letter-spacing: 2px;
 }
 
+
 .navs ul {
   display: flex;
   position: relative;
@@ -129,119 +130,9 @@ footer {
   left: 10%;
 }
 
-p img {
-  border: 1px solid;
-  width: 20%;
-  height: 40%;
-  border-radius: 50%;
-  position: absolute;
-  left: 5%;
-  top: 120%;
-}
-.raympfp:hover {
-  height: 70%;
-}
-.raympfp p {
-  position: absolute;
-  top: 130%;
-  left: 30%;
-  color: var(--color1);
-  letter-spacing: 5px;
-  border: 1px solid transparent;
-  background-color: var(--color1);
-  color: black;
-  width: 40%;
-  height: 15%;
-  border-radius: 50px 9px 25px;
-  font-size: 15px;
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 
-.mikapfp img {
-  border: 1px solid;
-  width: 20%;
-  height: 40%;
-  border-radius: 70%;
-  position: absolute;
-  left: 70%;
-  top: 160%;
-}
-.mikapfp p {
-  position: absolute;
-  top: 170%;
-  left: 25%;
-  color: var(--color1);
-  letter-spacing: 1px;
-  border: 1px solid white;
-  background-color: transparent;
-  color: black;
-  width: 40%;
-  height: 15%;
-  border-radius: 50px 100px 10px;
-  font-size: 15px;
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.rodianpfp img {
-  border: 1px solid;
-  width: 20%;
-  height: 40%;
-  border-radius: 50%;
-  position: absolute;
-  left: 5%;
-  top: 200%;
-}
-.rodianpfp p {
-  position: absolute;
-  top: 210%;
-  left: 30%;
-  color: var(--color1);
-  letter-spacing: 5px;
-  border: 1px solid transparent;
-  background-color: var(--color1);
-  color: black;
-  width: 40%;
-  height: 15%;
-  border-radius: 50px 9px 25px;
-  font-size: 15px;
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 
-.tanpfp img {
-  border: 1px solid;
-  width: 20%;
-  height: 40%;
-  border-radius: 70%;
-  position: absolute;
-  left: 70%;
-  top: 240%;
-}
-.tanpfp p {
-  position: absolute;
-  top: 250%;
-  left: 25%;
-  color: var(--color1);
-  letter-spacing: 1px;
-  border: 1px solid white;
-  background-color: transparent;
-  color: black;
-  width: 40%;
-  height: 15%;
-  border-radius: 50px 100px 10px;
-  font-size: 15px;
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+
 .button-next button {
   position: absolute;
   top: 70%;
@@ -259,8 +150,10 @@ p img {
   color: white;
   font-size: larger;
 }
+.button-next a:hover{
+  color: black;
+}
 .button-next button:hover {
   scale: 120%;
   background-color: var(--color3);
-  color: aliceblue;
 }

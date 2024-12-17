@@ -26,8 +26,8 @@
 
 
 
- body {
-  background-color:  cornflowerblue;
+body {
+  background-color:  #d26181;
 }
 .text p {
   color: aliceblue;
@@ -50,7 +50,7 @@
   border: 1px solid rgba(255,255,255,0.18);
   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
   border-radius: 20px;
-  transition: 0.6s ease-in-out;
+  transition: 1s ease-out;
 }
 
 
@@ -72,8 +72,7 @@
 }
 
 .skills:hover{
-    transform: translateY(-20px);
-    
+    transform: rotateX(360deg);
 }
 
 .intro-mess h1{
@@ -91,7 +90,7 @@
   border: 1px solid rgba(255,255,255,0.18);
   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
   border-radius: 20px;
-  transition: 0.6s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 
@@ -111,8 +110,8 @@
  
 }
 .prog-lang:hover{
-    transform: translateY(-20px) ;
-  
+    transform: rotateX(360deg);
+  backdrop-filter: blur(10px);
     
 
     
@@ -163,20 +162,12 @@ left: 28%;
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     border-radius: 20px;
-    transition: 0.6s ease-out;
+    transition: 1s ease-out;
   }
   .educ h1{
   position: relative;
   left: 22.5%;
   color: black;
-}
-.educ li{
-    list-style: armenian;
-    padding: 5px;
-    color: white;
-}
-.educ:hover{
-  transform: translateY(-20px);
 }
 
 .per-info{
@@ -189,7 +180,7 @@ left: 28%;
   border: 1px solid rgba(255,255,255,0.18);
   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
   border-radius: 20px;
-  transition: 0.6s ease-in-out;
+  transition: 1s ease-out;
 }
 .per-info h1{
   position: relative;
@@ -201,10 +192,6 @@ left: 28%;
   padding: 5px;
   color: white;
 }
-.per-info:hover{
-  transform: translateY(-20px);
-}
-
 
 
 
@@ -234,5 +221,3 @@ left: 28%;
 padding: 5px;
 
 }
-
-
