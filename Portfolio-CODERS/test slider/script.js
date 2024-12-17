@@ -9,7 +9,7 @@ const prevBtn = document.querySelector(".prev-btn");
 let colors = ["#3674be", "#d26181", "#ceb13d", "#c6414c"];
 let indexSlider = 0;
 let index = 0;
- 
+
 const slider = () => {
   imgSlider.style.transform = `rotate(${indexSlider * 90}deg)`;
 

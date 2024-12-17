@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="design.css" />
+    <style>
+      body {
+        background-color: #ceb13d;
+      }
+    </style>
+  </head>
+  <body class="tan">
+   <div class="intro-mess">
+    <h1 id="intro"></h1>
+   </div>
+   <div class="about">
+    <h1>About me</h1>
+   </div>
+
+    <div class="img-container">
+      <img src="28270df9-6a99-46b4-9901-f5667f0f450c-removebg-preview (1).png" alt="" width="20%" height="20%" />
+    </div>
+    <div class="text">
+      <p>
+      I'm a senior high school student of STI who is striving to learn programming. <br>
+      I'm curious and interested to learn different programming languages, explore my portfolio <br> to know more about me.
+
+        
+      </p>
+    </div>
+
+    <div class="skills">
+      <h1>Skills</h1>
+      <ul>
+           <li>Decent at debugging.</li>
+           <li>Knowledgeable about github and other tools of programming.</li>
+    </div>
+    <div class="prog-lang">
+      <h1>Programming languages i use</h1>
+      <ul>
+        <li class="list1">HTML</li>
+        <br>
+  
+       <li class="list2">CSS</li>
+       
+       <li class="list3">JAVA</li>
+      </ul>
+    </div>
+
+    <div class="expr">
+           <h1>
+             <p>Experiences & Projects</p>
+            </h1>
+            <ul>
+          <li> website about myself(HTML, CSS)</li>
+          <li>Calculator(JAVA)</li>
+          <li> Motorycycle retail tool(HTML, CSS, JAVASCRIPT)</li>
+          <li></li>
+     </ul>
+    </div>
+    
+    <div class="educ">
+      <h1>Educational Background</h1>
+      <ul>
+           <li>Decent at debugging.</li>
+           <li>Knowledgeable about github and other tools of programming.</li>
+    </div>
+    <div class="per-info">
+      <h1>Personal Information</h1>
+      <ul>
+           <li>Decent at debugging.</li>
+           <li>Knowledgeable about github and other tools of programming.</li>
+    </div>
+
+    </div>
+
+      <script>
+      function printMessage(message, delay) {
+          const outputElement = document.getElementById("intro");
+          outputElement.innerHTML = ""; // Clear previous output
+          let index = 0;
+          const interval = setInterval(() => {
+              if (index < message.length) {
+                  outputElement.innerHTML += message[index]; // Append the next letter
+                  index++;
+              } else {
+                  clearInterval(interval); // Stop the interval when done
+                  // Set a timeout to clear the message after a short delay
+                  setTimeout(() => {
+                      outputElement.innerHTML = ""; // Clear the message
+                  }, 1000); // Change this value to adjust how long the message stays visible
+              }
+          }, delay);
+      }
+
+      // Call the function directly when the page loads
+      window.onload = function() {
+          const message = "Hi, I'm Tan, Welcome to my portfolio!";
+          const delay = 90; // Delay in milliseconds 
+          printMessage(message, delay); s
+      };
+         </script>
+  </body>
+</html>
