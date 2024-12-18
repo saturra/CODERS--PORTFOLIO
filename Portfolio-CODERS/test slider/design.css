@@ -34,7 +34,7 @@
 .text p {
   color: aliceblue;
   position: absolute;
-  top: 30%;
+  top: 22%;
   left: 25%;
 }
 .about h1 {
@@ -80,7 +80,7 @@
 .intro-mess h1 {
   position: absolute;
   left: 65%;
-  top: 7%;
+  top: 2%;
 }
 
 .prog-lang {
@@ -197,40 +197,12 @@
   overflow: hidden;
 }
 .per-info h1 {
-  position: relative;
-  left: 4.5%;
-  color: black;
-}
-.per-info li {
-  list-style: armenian;
-  padding: 5px;
-  color: white;
-}
-.per-info:hover {
-  transform: translateY(-20px);
-}
-
-.per-info {
-  width: 30%;
-  height: 55%;
   position: absolute;
-  top: 120%;
-  left: 20%;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  border-radius: 20px;
-  transition: 0.6s ease-in-out;
-  overflow: hidden;
-}
-.per-info h1 {
-  position: relative;
-  left: 4.5%;
   color: black;
 }
 .per-info li {
   list-style: armenian;
-  padding: 5px;
+  padding: 1px;
   color: white;
 }
 .per-info:hover {
@@ -246,16 +218,154 @@
   border-radius: 20px;
   width: 30%;
   height: 50%;
+  transition: 0.6s ease-in-out;
+  overflow: hidden;
 }
-.expr p {
-  text-align: center;
-}
-.expr ul {
-  position: absolute;
-  top: 34%;
-  left: 13%;
-  list-style-type: circle;
+.expr h1 {
+  position: relative;
+  left: -20%;
+  color: black;
 }
 .expr li {
-  padding: 5px;
+  list-style: armenian;
+  padding: 1px;
+  color: white;
+}
+.expr:hover {
+  transform: translateY(-20px);
+}
+
+.awards {
+  width: 30%;
+  height: 50%;
+  position: absolute;
+  top: 187%;
+  left: 55%;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
+  transition: 0.6s ease-in-out;
+  overflow: hidden;
+}
+.awards h1 {
+  position: absolute;
+  color: black;
+}
+.awards li {
+  list-style: armenian;
+  padding: 1px;
+  color: white;
+}
+.awards:hover {
+  transform: translateY(-20px);
+}
+
+.PerInf-icon img {
+  position: absolute;
+  top: 120%;
+  left: 12%;
+  animation: Mymove 1s ease-in infinite;
+}
+@keyframes Mymove {
+  0% {
+    transform: translateX(5%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+.prog-langIcon img {
+  position: absolute;
+  top: 53.5%;
+  left: 12%;
+  animation: Mymove 1s ease-in-out infinite;
+}
+@keyframes Mymove {
+  0% {
+    transform: translateX(5%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+
+.SkillsIcon img {
+  position: absolute;
+  top: 53.5%;
+  left: 84.8%;
+  animation: Mymove 1s ease-in-out infinite;
+}
+@keyframes Mymove {
+  0% {
+    transform: translateX(5%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+
+.educ-icon img {
+  position: absolute;
+  top: 120%;
+  left: 84.8%;
+  animation: Mymove 1s ease-in-out infinite;
+}
+@keyframes Mymove {
+  0% {
+    transform: translateX(5%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+.expr-icon img {
+  position: absolute;
+  top: 189%;
+  left: 12%;
+  animation: Mymove 1s ease-in-out infinite;
+}
+@keyframes Mymove {
+  0% {
+    transform: translateX(5%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+.award-icon img {
+  position: absolute;
+  top: 190%;
+  left: 84.8%;
+  animation: Mymove 1s ease-in-out infinite;
+}
+@keyframes Mymove {
+  0% {
+    transform: translateX(5%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+
+li {
+  padding: 2%;
 }
