@@ -31,9 +31,6 @@
   shape-outside: circle(50% at 50% 50%);
 }
 
-body {
-  background-color: cornflowerblue;
-}
 .text p {
   color: aliceblue;
   position: absolute;
@@ -51,11 +48,12 @@ body {
   height: 55%;
   position: absolute;
   left: 55%;
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border-radius: 20px;
   transition: 0.6s ease-in-out;
+  overflow: hidden;
 }
 
 .skills h1 {
@@ -94,14 +92,10 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border-radius: 20px;
-  transition: 0.6s ease-in-out;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
 }
 
-.prog-lang h1 {
-  position: relative;
-  left: 15.5%;
-  color: black;
-}
 .prog-lang li {
   list-style: none;
   padding: 5px;
@@ -173,6 +167,7 @@ body {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border-radius: 20px;
   transition: 0.6s ease-out;
+  overflow: hidden;
 }
 .educ h1 {
   position: relative;
@@ -199,6 +194,34 @@ body {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border-radius: 20px;
   transition: 0.6s ease-in-out;
+  overflow: hidden;
+}
+.per-info h1 {
+  position: relative;
+  left: 4.5%;
+  color: black;
+}
+.per-info li {
+  list-style: armenian;
+  padding: 5px;
+  color: white;
+}
+.per-info:hover {
+  transform: translateY(-20px);
+}
+
+.per-info {
+  width: 30%;
+  height: 55%;
+  position: absolute;
+  top: 120%;
+  left: 20%;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
+  transition: 0.6s ease-in-out;
+  overflow: hidden;
 }
 .per-info h1 {
   position: relative;
@@ -216,12 +239,12 @@ body {
 
 .expr {
   position: absolute;
-  top: 200%;
-  left: 11.5%;
+  top: 187%;
+  left: 20%;
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  border-radius: 40px;
-  width: 75%;
+  border-radius: 20px;
+  width: 30%;
   height: 50%;
 }
 .expr p {
@@ -229,7 +252,8 @@ body {
 }
 .expr ul {
   position: absolute;
-  left: 30%;
+  top: 34%;
+  left: 13%;
   list-style-type: circle;
 }
 .expr li {

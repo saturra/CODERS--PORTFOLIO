@@ -1,0 +1,85 @@
+.prog-lang h1 {
+  position: relative;
+  left: 15.15%;
+  top: 25%;
+  transition: 0.4s ease-in;
+}
+.prog-lang:hover h1 {
+  position: relative;
+  left: 15.15%;
+  top: 0%;
+}
+
+.prog-lang ul {
+  opacity: 0;
+  transform: translateX(-90%);
+  transition: 0.4s ease-in;
+}
+.prog-lang:hover ul {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.skills h1 {
+  position: relative;
+  left: 37%;
+  top: 34%;
+  transition: 0.4s ease-in;
+}
+.skills:hover h1 {
+  position: relative;
+  left: 37%;
+  top: 0%;
+}
+
+.skills ul {
+  opacity: 0;
+  transform: translateX(-90%);
+  transition: 0.4s ease-in;
+}
+.skills:hover ul {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.educ h1 {
+  position: relative;
+  top: 28%;
+  transition: 0.4s ease-in;
+}
+.educ:hover h1 {
+  position: relative;
+  top: 0%;
+}
+
+.educ ul {
+  opacity: 0;
+  transform: translateX(-90%);
+  transition: 0.4s ease-in;
+}
+.educ:hover ul {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.per-info h1 {
+  position: relative;
+  left: 1%;
+  top: 34%;
+  transition: 0.4s ease-in;
+}
+.per-info:hover h1 {
+  position: relative;
+
+  top: 0%;
+}
+
+.per-info ul {
+  opacity: 0;
+  transform: translateX(-90%);
+  transition: 0.4s ease-in;
+}
+.per-info:hover ul {
+  opacity: 1;
+  transform: translateX(0%);
+}
