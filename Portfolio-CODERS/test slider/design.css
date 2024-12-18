@@ -119,11 +119,11 @@ body {
   margin-right: 0%;
   border-radius: 20px;
   padding-left: 7.5px;
+  margin-bottom: 0;
   position: relative;
   left: -6%;
-  top: 50%;
-  bottom: 30%;
   background-color: pink;
+  margin-top: -5%;
   color: rgb(56, 55, 55);
 }
 .prog-lang .list2 {
@@ -134,8 +134,8 @@ body {
   padding-left: 6.5px;
   position: relative;
   left: 8%;
-  top: 9%;
   background-color: darkslategrey;
+  margin-top: 1%;
   color: antiquewhite;
 }
 .prog-lang .list3 {
@@ -145,8 +145,21 @@ body {
   padding-left: 10px;
   border-radius: 20px;
   position: relative;
-  left: 28%;
+  left: 20%;
   background-color: #faad1b;
+  margin-top: 0.5%;
+  color: black;
+}
+.prog-lang .list4 {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 30%;
+  margin-left: 0%;
+  padding-left: 10px;
+  border-radius: 20px;
+  position: relative;
+  left: 45%;
+  margin-top: -2%;
+  background-color: #d7b474;
   color: black;
 }
 .educ {
@@ -155,7 +168,7 @@ body {
   position: absolute;
   top: 120%;
   left: 55%;
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border-radius: 20px;
@@ -181,7 +194,7 @@ body {
   position: absolute;
   top: 120%;
   left: 20%;
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border-radius: 20px;
