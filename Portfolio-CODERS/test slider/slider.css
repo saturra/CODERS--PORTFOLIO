@@ -39,7 +39,6 @@ body::before {
   transform: translateY(-50%);
   width: 1300px;
   height: 1300px;
-  filter: drop-shadow(2px 2px 20px #3674be);
 }
 
 .img-box .img-list {
